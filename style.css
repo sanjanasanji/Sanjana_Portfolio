@@ -1,0 +1,240 @@
+/* General container styling */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Navigation styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  padding: 15px 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: #eee;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover,
+.nav-links li a:focus {
+  color: #ff6f61;
+}
+
+/* Intro Section */
+.intro-section {
+  text-align: center;
+  padding: 80px 20px 40px;
+  background-color: #f44141;
+}
+
+.intro-section h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.subheading {
+  font-size: 1.2rem;
+  color: #1a0202;
+}
+
+/* Profile picture and About me */
+.profile-pic {
+  width: 180px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  border: 3px solid #ff6f61;
+}
+
+.text {
+  overflow: hidden;
+}
+
+/* Section titles */
+h2 {
+  border-bottom: 3px solid #ff6f61;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+  color: #333;
+}
+.skills-list {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.skills-list li {
+  margin-bottom: 18px;
+  list-style: none;
+}
+
+.skill-name {
+  font-weight: 600;
+  margin-bottom: 4px;
+  font-size: 1rem;
+  color: #011019;
+}
+
+.skill-bar {
+  background-color: #ddd;
+  border-radius: 15px;
+  overflow: hidden;
+  height: 16px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.skill-level {
+  height: 100%;
+  background-color: #ff6f61;
+  color: white;
+  text-align: right;
+  padding-right: 8px;
+  line-height: 16px;
+  border-radius: 15px 0 0 15px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: width 1s ease-in-out;
+}
+
+
+/* Certificates */
+.certificates {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.certificate {
+  width: 250px;
+  text-align: center;
+}
+
+.certificate img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  margin-bottom: 8px;
+}
+
+/* Hobbies */
+.hobby-images {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.hobby-item {
+  text-align: center;
+}
+
+.hobby-item img {
+  width: 180px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+contact h2 {
+  border-bottom: 3px solid #ff6f61;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-align: left;
+  display: inline-block;
+  width: fit-content;
+  padding-left: 80px;
+  border-bottom-width: 3px;
+}
+
+
+
+/* Contact form */
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 15px;
+  font-size: 1rem;
+  border: 1.5px solid #ddd;
+  border-radius: 6px;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #ff6f61;
+}
+
+.contact-form button {
+  padding: 12px;
+  font-size: 1.1rem;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #e65b50;
+}
+
+
+/* Social icons */
+.social-icons {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px 0;
+  background-color: #222;
+  color: #ddd;
+  margin-top: 60px;
+  font-size: 0.9rem;
+}
